@@ -63,13 +63,14 @@ section + section {
 
 
 .hero-image {
-	max-width: 100%;
-	position: auto;
+	max-width: auto;
 
 }
 
 .hero-container {
-	text-align: right;
+	display: flex;
+	flex-direction: row-reverse;
+
 }
 
 @media #{$desktop} {
@@ -82,6 +83,8 @@ section + section {
 			-webkit-flex: 1;
 			flex: 1;
 			padding: 50px 20px;
+			font-weight: lighter;
+			font-size: large;
 		}
 	}
 
@@ -111,7 +114,7 @@ section + section {
     flex: auto;
     text-decoration: none;
     padding: 15px 30px;
-    background: $platform-gradient-blue-red;
+    background: $platform-gradient-blue-magenta;
     border-radius: 30px;
     border: 1px solid $platform-lightgrey;
     transition: .2s ease-in-out;  
@@ -119,11 +122,12 @@ section + section {
   
   .button a:hover, input[type=submit]:hover {
     border: none;
-    background: $platform-gradient-blue-red;
+    background: $platform-gradient-blue-magenta;
     cursor: pointer;
   }
 
   .cta {
-    margin: 50px auto;
+	margin: 50px auto;
+	font-weight: normal;
 
   }

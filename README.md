@@ -24,8 +24,6 @@ https://github.com/philipwalton/solved-by-flexbox
 - [ ] legal notes in english
 - [ ] defluff code by unifying templates css files + libs
 - [ ] improve feature descriptions + images
-- [ ] remove small padding/margin below key visual in header
-- [ ] improve key visual
 - [ ] add BMWi sponsoring to footer
 - [ ] add 2nd layer overview to Help Center (category overviews)
 - [ ] style Help Posts
