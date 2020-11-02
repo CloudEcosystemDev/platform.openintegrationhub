@@ -6,3 +6,4 @@ baseurl:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - README.md
