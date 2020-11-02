@@ -1,0 +1,8 @@
+title: Help Center
+url: "https://www.oih-platform.org"
+email: info@cloudecosystem.org
+baseurl:
+
+exclude:
+  - Gemfile
+  - Gemfile.lock

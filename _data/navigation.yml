@@ -1,0 +1,15 @@
+- name: Home
+  link: /
+
+- name: Features
+  link: /#features
+
+
+- name: Help Center
+  link: /help.html
+
+
+- name: Early Access
+  link: /sign-up.html
+  new_window: true
+  highlight: true

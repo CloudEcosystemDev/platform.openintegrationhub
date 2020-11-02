@@ -1,0 +1,26 @@
+//colors
+
+$oih-red: #DE063A;
+$oih-red-dark: #941c46;
+$oih-magenta: #FF2473;
+$oih-organe: #FF8200;
+$platform-darkblue: #24293b;
+$platform-blue: #313A55;
+$platform-dark: #000000;
+$platform-darkgrey: #595959;
+$platform-grey: #CCCCCC;
+$platform-lightgrey: #F2F2F2;
+$platform-green: #306645;
+
+
+$oih-gradient: linear-gradient(90deg, $oih-organe, $oih-magenta);
+$platform-gradient-magenta-red: linear-gradient(90deg, $oih-magenta, $oih-red);
+$platform-gradient-blue-magenta: linear-gradient(90deg, $platform-blue 30%, $oih-magenta);
+$platform-gradient-blue-red: linear-gradient(90deg, $platform-blue 30%, $oih-red);
+$platform-gradient-blue-red-dark: linear-gradient(90deg, $platform-blue 40%, $oih-red-dark);
+$platform-gradient-blue-dark: linear-gradient(90deg, $platform-blue, $platform-darkblue);
+
+// Breakpoints
+$tablet: "(min-width: 450px)";
+$mid-point: "(min-width: 620px)";
+$desktop: "(min-width: 768px)";

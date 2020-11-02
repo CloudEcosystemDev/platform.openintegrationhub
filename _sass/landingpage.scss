@@ -1,0 +1,129 @@
+section {
+	padding: 0px 0px;
+}
+
+section + section {
+	padding-top: 0;
+}
+
+
+.hero {
+	color: #ffffff;
+	text-align: center;
+	background: $platform-gradient-blue-red-dark;
+	padding-top: 50px;
+
+	p {
+		color: #fff;
+	}
+}
+
+.container, .text-container {
+
+	margin: 0 auto;
+	position: relative;
+
+
+}
+
+
+.text-container {
+	max-width: 750px;
+	margin-bottom: 50px;
+}
+
+.container {
+	max-width: 1140px;
+
+
+	&.max-container {
+		max-width: 100%;
+		padding: 0;
+	}
+}
+
+.content {
+	background: #fff;
+	padding: 1px 0 0 0;
+	position: relative;
+}
+.screenshot{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	box-shadow: 0 1px 0 #b9b9b9, 0 1px 0 1px #b9b9b9;
+	border-radius: 2px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #b9b9b9 url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2244%22%20height%3D%2212%22%20viewBox%3D%220%200%2044%2012%22%3E%3Ccircle%20cx%3D%226%22%20cy%3D%226%22%20r%3D%224%22%20fill%3D%22%23eee%22%20%2F%3E%3Ccircle%20cx%3D%2222%22%20cy%3D%226%22%20r%3D%224%22%20fill%3D%22%23eee%22%20%2F%3E%3Ccircle%20cx%3D%2238%22%20cy%3D%226%22%20r%3D%224%22%20fill%3D%22%23eee%22%20%2F%3E%3C%2Fsvg%3E') 4px 4px no-repeat;
+	padding: 20px 0 0 0;
+	position: relative;
+}
+
+
+.hero-image {
+	max-width: 100%;
+	position: auto;
+
+}
+
+.hero-container {
+	text-align: right;
+}
+
+@media #{$desktop} {
+	.flex {
+		@include flexbox;
+		align-items: center;
+		flex-direction: row;
+
+		.text, .image {
+			-webkit-flex: 1;
+			flex: 1;
+			padding: 50px 20px;
+		}
+	}
+
+	.content section:nth-child(even) .flex {
+		flex-direction: row-reverse;
+	}
+}
+
+.bottom-cta {
+	background: $platform-gradient-blue-red-dark;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	padding: 50px 0;
+
+	h2 {
+		margin-bottom: 50px;
+	}
+}
+
+.current {
+    color: #ffff;
+  }
+
+  .button a, input[type=submit] {
+    color: #fff;
+    flex: auto;
+    text-decoration: none;
+    padding: 15px 30px;
+    background: $platform-gradient-blue-red;
+    border-radius: 30px;
+    border: 1px solid $platform-lightgrey;
+    transition: .2s ease-in-out;  
+  }
+  
+  .button a:hover, input[type=submit]:hover {
+    border: none;
+    background: $platform-gradient-blue-red;
+    cursor: pointer;
+  }
+
+  .cta {
+    margin: 50px auto;
+
+  }

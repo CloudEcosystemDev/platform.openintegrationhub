@@ -1,0 +1,17 @@
+- links:
+  - name: Home
+    link: /
+  - name: Features
+    link: /#features
+  - name: Help Center
+    link: /help.html
+
+
+- links:
+  - name: Early Access
+    link: /sign-up.html
+    new_window: true
+  - name: Open Integration Hub
+    link: www.openintegrationhub.org
+    new_window: true
+

@@ -1,0 +1,11 @@
+
+<div class="logo"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/images/oih-bildmarke-white.svg"  alt="OIH Logo" width="95" height="33" /></a></div>
+  <div class="nav-block">
+  <a class="nav-toggle"></a>
+    {% for item in site.data.navigation %}
+    <a href="{{ item.link }}">
+      {{ item.name }}
+    </a>
+  {% endfor %}
+  </div>
+ 
