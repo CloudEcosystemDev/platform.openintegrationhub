@@ -680,13 +680,13 @@ section { padding: 0px 0px; }
 
 section + section { padding-top: 0; }
 
-.hero { color: #ffffff; text-align: center; background: linear-gradient(90deg, #313A55 40%, #941c46); padding-top: 50px; }
+.hero { color: #ffffff; text-align: left; background: linear-gradient(90deg, #313A55 40%, #941c46); padding-top: 50px; }
 
 .hero p { color: #fff; }
 
 .container, .text-container { margin: 0 auto; position: relative; }
 
-.text-container { max-width: 750px; margin-bottom: 50px; }
+.text-container { max-width: 750px; margin-bottom: 20px; }
 
 .container { max-width: 1140px; }
 
@@ -706,12 +706,16 @@ section + section { padding-top: 0; }
 
 .bottom-cta h2 { margin-bottom: 50px; }
 
-.current { color: #ffff; }
-
 .button a, input[type=submit] { color: #fff; flex: auto; text-decoration: none; padding: 15px 30px; background: linear-gradient(90deg, #313A55 30%, #FF2473); border-radius: 30px; border: 1px solid #F2F2F2; transition: .2s ease-in-out; }
 
 .button a:hover, input[type=submit]:hover { border: none; background: linear-gradient(90deg, #313A55 30%, #FF2473); cursor: pointer; }
 
-.cta { margin: 50px auto; font-weight: normal; }
+.cta { margin-top: 50px; font-weight: 200%; }
+
+.sign-up { color: #ffffff; text-align: center; background: linear-gradient(90deg, #313A55 40%, #941c46); padding: 50px; }
+
+.sign-up p { color: #fff; }
+
+.sign-up-form { margin: 100px auto; }
 
 /*# sourceMappingURL=styles.css.map */

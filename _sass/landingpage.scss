@@ -9,7 +9,7 @@ section + section {
 
 .hero {
 	color: #ffffff;
-	text-align: center;
+	text-align: left;
 	background: $platform-gradient-blue-red-dark;
 	padding-top: 50px;
 
@@ -29,7 +29,7 @@ section + section {
 
 .text-container {
 	max-width: 750px;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 
 .container {
@@ -105,10 +105,6 @@ section + section {
 	}
 }
 
-.current {
-    color: #ffff;
-  }
-
   .button a, input[type=submit] {
     color: #fff;
     flex: auto;
@@ -127,7 +123,19 @@ section + section {
   }
 
   .cta {
-	margin: 50px auto;
-	font-weight: normal;
+	margin-top: 50px;
+	font-weight: 200%;
+}
+  .sign-up {
+	color: #ffffff;
+	text-align: center;
+	background: $platform-gradient-blue-red-dark;
+	padding: 50px;
 
-  }
+	p {
+		color: #fff;
+	}
+}
+.sign-up-form {
+	margin: 100px auto;
+}

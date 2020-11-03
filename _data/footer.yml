@@ -3,8 +3,8 @@
     link: /
   - name: Features
     link: /#features
-  - name: Help Center
-    link: /help.html
+  # - name: Help Center
+  #   link: /help.html
 
 
 - links:
