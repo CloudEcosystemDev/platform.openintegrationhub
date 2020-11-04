@@ -686,7 +686,7 @@ section + section { padding-top: 20px; }
 
 .hero-image { max-width: auto; }
 
-.hero-container { width: 100%; margin: 0 auto; display: flex; flex-direction: row-reverse; position: relative; }
+.hero-container { width: 100%; margin: 0 auto; display: flex; flex-direction: row; position: relative; }
 
 .container, .text-container { margin: 0 auto; position: relative; }
 
