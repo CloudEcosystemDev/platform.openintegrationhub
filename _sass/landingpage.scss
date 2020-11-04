@@ -9,8 +9,10 @@ section + section {
 
 .hero {
 	color: #ffffff;
-	text-align: left;
-	background: $platform-gradient-blue-red-dark;
+	background-color: $platform-gradient-blue-red-dark; 
+	background-image: url('../images/Liniennetz 3000 x 1800.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 	padding-top: 50px;
 
 	p {
@@ -20,6 +22,7 @@ section + section {
 
 .hero-image {
 	max-width: auto;
+	margin-right: 30px;
 }
 
 .hero-container {

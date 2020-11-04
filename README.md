@@ -19,7 +19,6 @@ https://github.com/philipwalton/solved-by-flexbox
 
 # To Dos 
 - [ ] implement cookie consent form
-- [ ] create new header layout to position images better
 - [ ] create and set platform.openintegrationhub.org subdomain
 - [ ] set custom success message in Pipedrive for registration
 - [ ] legal notes in english
@@ -29,6 +28,7 @@ https://github.com/philipwalton/solved-by-flexbox
 - [ ] add 2nd layer overview to Help Center (category overviews)
 - [ ] style Help Posts
 - [ ] add Datenschutzhinweise for SignUp
+- [ ] play with hero image size vs resolution
 
 ### nice to have
 - [ ] registration form slide in module

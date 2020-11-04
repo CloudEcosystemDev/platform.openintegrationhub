@@ -680,11 +680,11 @@ section { padding: 0px 0px; }
 
 section + section { padding-top: 20px; }
 
-.hero { color: #ffffff; text-align: left; background: linear-gradient(90deg, #313A55 40%, #941c46); padding-top: 50px; }
+.hero { color: #ffffff; background-color: linear-gradient(90deg, #313A55 40%, #941c46); background-image: url("../images/Liniennetz 3000 x 1800.png"); background-repeat: no-repeat; background-size: cover; padding-top: 50px; }
 
 .hero p { color: #fff; }
 
-.hero-image { max-width: auto; }
+.hero-image { max-width: auto; margin-right: 30px; }
 
 .hero-container { width: 100%; margin: 0 auto; display: flex; flex-direction: row; position: relative; }
 
