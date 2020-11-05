@@ -10,7 +10,7 @@ section + section {
 .hero {
 	color: #ffffff;
 	background-color: $platform-gradient-blue-red-dark; 
-	background-image: url('../images/Liniennetz 3000 x 1800.png');
+	background-image: url('../images/Liniennetz 3000 x 2000.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-top: 50px;
@@ -144,3 +144,41 @@ section + section {
 .sign-up-form {
 	margin: 100px auto;
 }
+
+.overlay-container {
+	position: relative;
+	width: 50%;
+	padding: 50px 20px;
+  }
+  
+  .overlay-image {
+	display: block;
+	width: 100%;
+	height: auto;
+  }
+  
+  .overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: white;
+	overflow: hidden;
+	width: 0;
+	height: 100%;
+	transition: 1.5s ease;
+  }
+  
+  .overlay-container:hover .overlay {
+	width: 100%;
+  }
+  
+  .slide-image {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	white-space: nowrap;
+  }
