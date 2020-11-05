@@ -4,7 +4,7 @@
             {% for column in site.data.footer %}
             <ul class="footer-links">
                 {% for link in column.links %}
-                    <li><a href="{{ link.link }}">
+                    <li><a href="{{ site.baseurl }}{{ link.link }}">
                         {{ link.name }}</a></li>
                 {% endfor %}
             </ul>

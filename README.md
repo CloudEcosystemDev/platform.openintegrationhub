@@ -23,7 +23,6 @@ https://github.com/philipwalton/solved-by-flexbox
 # To Dos 
 - [ ] implement cookie consent form
 - [ ] create and set platform.openintegrationhub.org subdomain
-- [ ] set custom success message in Pipedrive for registration
 - [ ] legal notes in english
 - [ ] defluff code by unifying templates css files + libs
 - [ ] improve feature descriptions + images
