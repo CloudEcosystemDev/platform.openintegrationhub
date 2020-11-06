@@ -29,7 +29,6 @@ https://github.com/philipwalton/solved-by-flexbox
 - [ ] add BMWi sponsoring to footer
 - [ ] add 2nd layer overview to Help Center (category overviews)
 - [ ] style Help Posts
-- [ ] add Datenschutzhinweise for SignUp
 - [ ] check mobile responsivness
 
 
