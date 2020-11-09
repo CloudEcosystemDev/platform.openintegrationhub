@@ -1,15 +1,15 @@
 - links:
   - name: Home
-    link: /platform.openintegrationhub/
+    link: /
   - name: Features
-    link: /platform.openintegrationhub/#features
+    link: /#features
   # - name: Help Center
   #   link: /help.html
 
 
 - links:
   - name: Early Access
-    link: /platform.openintegrationhub/sign-up.html
+    link: /sign-up.html
     new_window: true
     
   # - name: Open Integration Hub

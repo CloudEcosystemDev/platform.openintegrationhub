@@ -21,8 +21,6 @@ https://gustavoquinalha.github.io/the-grid/
 https://github.com/philipwalton/solved-by-flexbox
 
 # To Dos 
-- [ ] implement cookie consent form
-- [ ] create and set platform.openintegrationhub.org subdomain
 - [ ] legal notes in english
 - [ ] defluff code by unifying templates css files + libs
 - [ ] improve feature descriptions + images
